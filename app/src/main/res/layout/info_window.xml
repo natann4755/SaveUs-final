@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="170dp"
+    android:layout_height="90dp"
+    android:background="@drawable/info_window">
+
+ <RelativeLayout
+     android:layout_width="155dp"
+     android:layout_height="15dp"
+     android:layout_gravity="center_horizontal"
+     >
+        <ImageView
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:src="@drawable/add_place_close"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="7dp"/>
+ </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="-7dp">
+
+        <View
+            android:layout_width="10dp"
+            android:layout_height="match_parent"/>
+
+            <LinearLayout
+                android:layout_width="144dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:id="@+id/info_window_addresTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="21dp"
+                    android:text="יפן 121 ירושלים"
+                    android:textSize="16sp"
+                    android:textColor="@color/red_color_info_window"
+                    android:layout_gravity="end"
+                    />
+
+                <TextView
+                    android:id="@+id/info_window_dateTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="21dp"
+                    android:text="19/03/2020"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="3dp"
+                    android:layout_gravity="end"/>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="18dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_gravity="center_horizontal">
+
+                    <TextView
+                        android:id="@+id/info_window_timeTV"
+                        android:layout_width="wrap_content"
+                        android:layout_height="18dp"
+                        android:text="00:03:13"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/blacgery_color_info_window"
+
+                        />
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true">
+
+                        <TextView
+                            android:id="@+id/info_window_endTimeTV"
+                            android:layout_width="wrap_content"
+                            android:layout_height="21dp"
+                            android:text="13:45"
+                            android:textSize="14sp"
+                            android:textColor="@color/blacgery_color_info_window"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="21dp"
+                            android:text="-"
+                            android:textSize="14sp"
+                            android:textColor="@color/blacgery_color_info_window"
+                            android:paddingStart="2dp"
+                            android:paddingEnd="2dp"
+                            />
+                        <TextView
+                            android:id="@+id/info_window_startTimeTV"
+                            android:layout_width="wrap_content"
+                            android:layout_height="21dp"
+                            android:text="10:45"
+                            android:textSize="14sp"
+                            android:textColor="@color/blacgery_color_info_window"
+                            />
+
+                    </LinearLayout>
+
+
+
+
+                </RelativeLayout>
+
+
+
+            </LinearLayout>
+
+
+        <View
+            android:layout_width="10dp"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

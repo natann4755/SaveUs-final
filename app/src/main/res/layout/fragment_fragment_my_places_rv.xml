@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.FragmentMyPlacesRV"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="18"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="35"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="16"/>
+
+        <LinearLayout
+            android:id="@+id/filter_date_button_start_LL"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="136.8"
+            android:background="@drawable/rectangel_with_errwo"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <View
+                android:layout_width="11dp"
+                android:layout_height="match_parent"/>
+
+            <ImageView
+                android:layout_width="14dp"
+                android:layout_height="16dp"
+                android:src="@mipmap/add_plaice_date"/>
+
+            <View
+                android:layout_width="10dp"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:id="@+id/filter_date_text_start_TV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="@color/blacgery_color_info_window"
+               />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/filter_date_button_end_LL"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="129.1"
+            android:layout_marginEnd="9dp"
+            android:background="@drawable/rectangel_with_errwo"
+            android:gravity="center_vertical">
+
+
+            <View
+                android:layout_width="24dp"
+                android:layout_height="match_parent"/>
+
+            <ImageView
+                android:layout_width="14dp"
+                android:layout_height="16dp"
+                android:src="@mipmap/add_plaice_date"/>
+
+            <View
+                android:layout_width="10dp"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:id="@+id/filter_date_text_end_TV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="@color/blacgery_color_info_window"
+               />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/filter_date_button_filter_LL"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="59.2"
+            android:background="@drawable/rectangel_shoo_dates"
+            android:gravity="center"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="@string/rv_my_place_show"
+                android:textColor="@color/bororder_from_rectangel_tilter_date_shoo"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="16"/>
+
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="24"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/my_places_recycler_view_RV"
+        android:scrollbars="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="425"/>
+
+
+
+
+
+
+
+
+
+</LinearLayout>

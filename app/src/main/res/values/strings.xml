@@ -1,0 +1,107 @@
+<resources>
+    <string name="app_name">SaveUs</string>
+
+
+    <string name="onBonding1_titel">Privacy and Security</string>
+    <string name="onboarding_text1">Corona\'s spread is prevented</string>
+    <string name="onboarding_text2">goal of us all</string>
+    <string name="onboarding_text3">You can now actively help</string>
+    <string name="onboarding_text4">And without fear of violating your privacy</string>
+    <string name="onboarding2_titel">Simple and fast</string>
+    <string name="onbording3_titel">Alerts and updates</string>
+    <string name="onbording3_text1">Real-time alert</string>
+    <string name="onbording3_text2">accepted in the situation you were</string>
+    <string name="onbording3_text3">current location and has updated as an infected area</string>
+    <string name="onbording3_text4">Alert updated</string>
+    <string name="onbording3_text5">accepted when one of the places</string>
+    <string name="onbording3_text6">That you reported, in real time or in retrospect</string>
+    <string name="onbording3_text7">Will be reported as an infected area</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="login_titel_welcome">Welcome</string>
+    <string name="login_text1">Your health and safety is a top priority,</string>
+    <string name="login_text2">We are here to help you track and record the activity.</string>
+    <string name="login_text3">All the information is completely anonymous.</string>
+    <string name="login_hint1_name">Name</string>
+    <string name="login_hint2_email">E-mail</string>
+    <string name="login_hint3_fhone">Phone Number</string>
+    <string name="login_text4_iapprove">I approve</string>
+    <string name="login_text5_bylaws"><u>bylaws</u></string>
+    <string name="login_text6_and">and</string>
+    <string name="login_text7_terms_of_use"><u>terms of use</u></string>
+    <string name="login_button1_sign_up">Sign up</string>
+    <string name="login_button1_skip">Skip</string>
+    <string name="home_navigesen_main">main</string>
+    <string name="home_navigesen_myplaces">My places</string>
+    <string name="home_navigesen_Notifications">Notifications</string>
+    <string name="main_botton_text1">I arrived</string>
+    <string name="main_botton_text2">Start registering</string>
+    <string name="main_botton_text3">Stop</string>
+    <string name="main_tost_text">The app can\'t work without location permission!</string>
+    <string name="rv_titel_on_map">On a map</string>
+    <string name="rv_titel_my_place">My places</string>
+    <string name="button_add_place">Add a location</string>
+    <string name="deialog_termsofuse">Terms of Use</string>
+    <string name="deialog_terms">Terms</string>
+    <string name="notifications_my_alerts">My alerts</string>
+    <string name="notifications_patiens">patients</string>
+    <string name="notifications_recoverers">recoverers</string>
+    <string name="notifications_dead">dead</string>
+    <string name="notifications_update">There are no updates so far for you</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+
+
+    <string name="add_place_save">save</string>
+    <string name="add_place_addplace">Add a location</string>
+    <string name="add_place_addres">Address</string>
+    <string name="add_place_add_date">Add a date</string>
+    <string name="add_place_start">start</string>
+    <string name="add_place_end">finish</string>
+    <string name="add_place_total">Total</string>
+    <string name="add_place_dalete">Delete Report</string>
+    <string name="edit_place_edite_place">Edit location</string>
+    <string name="edit_place_save">save</string>
+    <string name="edit_place_addres">Address</string>
+    <string name="edit_place_add_date">Add a date</string>
+    <string name="edit_place_start">start</string>
+    <string name="edit_place_end">finish</string>
+    <string name="edit_place_total">Total</string>
+    <string name="edit_place_dalete">Delete Report</string>
+    <string name="rv_my_place_show">Show</string>
+    <string name="profil_personal_information">Personal Information</string>
+    <string name="profil_user_name">User name</string>
+    <string name="profil_fon">Phone Number</string>
+    <string name="profil_date_of_birth">Date of birth</string>
+    <string name="profil_email">Email</string>
+    <string name="profil_language">language</string>
+    <string name="profil_personal_alerts">Get mobile alerts</string>
+    <string name="profil_app_works">How the app works</string>
+    <string name="profil_temp_of_use">Terms of Use</string>
+    <string name="profil_problem">Report a malfunction</string>
+    <string name="profil_share_with_frends">Share with friends</string>
+    <string name="profil_export_place">Exports of places I visited</string>
+    <string name="edit_profile_save">save</string>
+    <string name="edit_profile_personal_information_edit">Edit personal information</string>
+    <string name="edit_profile_name">Name</string>
+    <string name="edit_profile_email">E-mail</string>
+    <string name="edit_profile_fon">Phone Number</string>
+    <string name="edit_profile_date_of_berth">Date of birth</string>
+    <string name="edit_profile_m_date">00/00/00</string>
+    <string name="edit_profile_language_choose">language</string>
+    <string name="edit_profile_alerts">Receive alerts</string>
+    <string name="edit_profile_dalete">Delete details</string>
+    <string name="tost_date_not_good">Date values are invalid</string>
+    <string name="tost_no_full">Missing details!</string>
+    <string name="tost_ouer_not_good">The hourly values are invalid</string>
+    <string name="rv_tudey">Today</string>
+    <string name="rv_yesterday">Yesterday</string>
+    <string name="tost_no_locashen">We can not find your location, you can not update a place!</string>
+
+
+    <!--    &lt;u&gt;underline&lt;/u&gt;-->
+</resources>

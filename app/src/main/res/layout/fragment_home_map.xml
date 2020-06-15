@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.HomeMapFragment">
+
+
+        <!--    <RelativeLayout-->
+        <!--        android:layout_width="match_parent"-->
+        <!--        android:layout_height="match_parent">-->
+
+        <!--    <com.google.android.gms.maps.MapView-->
+        <!--        android:id="@+id/mapView"-->
+        <!--        android:layout_width="match_parent"-->
+        <!--        android:layout_height="match_parent" />-->
+
+        <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:map="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".Activitys.MapsActivity" />
+
+
+        <RelativeLayout
+            android:id="@+id/lite_background_startTimet_RL"
+            android:layout_width="238dp"
+            android:layout_height="238dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/circel_litegreen"/>
+
+        <RelativeLayout
+            android:id="@+id/butoon_startTimet_RL"
+            android:layout_width="196dp"
+            android:layout_height="196dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/circel_green">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    >
+                        <TextView
+                            android:id="@+id/butoon_startTimet_text1_RL"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/main_botton_text1"
+                            android:textSize="40sp"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:id="@+id/butoon_startTimet_text2_RL"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/main_botton_text2"
+                            android:textSize="20sp"
+                            android:textColor="@color/white"
+                            android:layout_marginTop="-4dp"
+                            />
+                </LinearLayout>
+        </RelativeLayout>
+
+        <!--    </RelativeLayout>-->
+
+
+</RelativeLayout>

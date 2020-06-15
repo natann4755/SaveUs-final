@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="blacgrey">#454e6c</color>
+    <color name="green">#00b2ab</color>
+    <color name="tablayotGrey">#cdd0db</color>
+    <color name="tablayotRed">#ee6777</color>
+    <color name="white">#ffffff</color>
+    <color name="whiteBackground">#fafbfc</color>
+    <color name="black">#051549</color>
+    <color name="hintTextColor">#b0b0b0</color>
+    <color name="liteGreen_circel">#5c00b3ac</color>
+    <color name="green_curcel">#06928c</color>
+    <color name="green_circel_borders">#00b2ab</color>
+    <color name="red_curcel">#e23d51</color>
+    <color name="red_circel_borders">#ff8492</color>
+    <color name="liteRed_circel">#59ee6777</color>
+    <color name="red_marker">#ee6777</color>
+    <color name="red_color_info_window">#ee6777</color>
+    <color name="blacgery_color_info_window">#737684</color>
+    <color name="tablayout_my_place_no_preesde">#8c00b3ac</color>
+    <color name="lite_grey">#efefef</color>
+    <color name="black_item_rv">#333333</color>
+    <color name="grey_border_item_rv">#40000000</color>
+    <color name="bororder_from_rectangel_filter_date">#dddedb</color>
+    <color name="bororder_from_rectangel_tilter_date_shoo">#ffaa00</color>
+    <color name="notification_small_ll_background">#e0e0e0</color>
+    <color name="grey_text">#737684</color>
+
+
+
+
+
+
+
+
+    lite_grey
+
+
+
+    #8c00b3ac
+
+
+
+
+</resources>

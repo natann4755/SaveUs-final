@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_main"
+        android:icon="@mipmap/home_icon_main"
+        android:title="@string/home_navigesen_main" />
+    <item
+        android:id="@+id/navigation_myPlace"
+        android:icon="@mipmap/home_icon_places"
+        android:title="@string/home_navigesen_myplaces" />
+    <item
+        android:id="@+id/navigation_Notifications"
+        android:icon="@mipmap/home_icon_warning"
+        android:title="@string/home_navigesen_Notifications" />
+</menu>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.Onboarding2Fragment"
+    android:layout_weight="640"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="102"/>
+
+    <ImageView
+        android:layout_width="279.9dp"
+        android:layout_height="0dp"
+        android:layout_weight="220.4"
+        android:src="@mipmap/onbording2"
+        android:layout_gravity="center"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="46.6"/>
+
+    <LinearLayout
+        android:layout_width="281dp"
+        android:layout_height="0dp"
+        android:layout_weight="63"
+        android:gravity="center"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="40sp"
+            android:text="@string/onboarding2_titel"
+            android:textStyle="bold"
+            android:textColor="@color/green"
+            android:autoSizeTextType="uniform"
+            android:maxLines="1"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="159"/>
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="0dp"-->
+<!--        android:layout_weight="45"-->
+<!--        android:gravity="center">-->
+
+<!--        <Button-->
+<!--            android:id="@+id/Onboarding1_Botton"-->
+<!--            android:layout_width="12dp"-->
+<!--            android:layout_height="12dp"-->
+<!--            android:background="@drawable/circel_grey"-->
+<!--            android:layout_marginEnd="10dp"-->
+<!--            />-->
+<!--        <Button-->
+<!--            android:id="@+id/Onboarding2_Botton"-->
+<!--            android:layout_width="12dp"-->
+<!--            android:layout_height="12dp"-->
+<!--            android:background="@drawable/circel_red"-->
+<!--            android:layout_marginEnd="10dp"/>-->
+<!--        <Button-->
+<!--            android:id="@+id/Onboarding3_Botton"-->
+<!--            android:layout_width="12dp"-->
+<!--            android:layout_height="12dp"-->
+<!--            android:background="@drawable/circel_grey"-->
+<!--            />-->
+
+<!--    </LinearLayout>-->
+
+
+
+</LinearLayout>
